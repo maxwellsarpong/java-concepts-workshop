@@ -13,5 +13,11 @@ public class Addition {
     public int add(int a, int b, int c){
         return a+b+c;
     }
+
+    public int add(String a, String b){
+        int i = Integer.parseInt(a);
+        int j = Integer.parseInt(b);
+        return i + j;
+    }
 }
 

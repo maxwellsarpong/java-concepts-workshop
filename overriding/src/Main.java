@@ -7,9 +7,20 @@ public class Main {
      */
 
     public static void main(String[] args) {
-        Football football = new Football();
+        Sports sports = new Sports();
+        sports.getNumberOfTeamMembers();
 
+
+        Sports football = new Football();
         // Call your members here
+        football.getName();
+        football.getNumberOfTeamMembers();
+
+
+        Sports aside = new FiveASide();
+        // Call your members here
+        aside.getName();
+        aside.getNumberOfTeamMembers();
 
     }
 }

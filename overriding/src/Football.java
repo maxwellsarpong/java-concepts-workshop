@@ -5,6 +5,18 @@
  */
 
 public class Football extends Sports {
+    int n = 11;
+
+    @Override
+    String getName(){
+        return "Football Sports";
+    }
+
+    @Override
+    void getNumberOfTeamMembers(){
+        System.out.println( "Each team has " + n + " players in " + getName());
+
+    }
 
 }
 
